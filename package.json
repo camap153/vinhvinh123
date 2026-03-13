@@ -1,0 +1,25 @@
+{
+  "name": "quote-manager",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://camap153.github.io/vinhvinh123/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.0",
+    "gh-pages": "^6.3.0",
+    "typescript": "~5.9.3",
+    "vite": "^8.0.0"
+  },
+  "dependencies": {
+    "firebase": "^12.10.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}
